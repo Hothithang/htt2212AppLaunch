@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.over-hidden {
+    overflow: hidden;
+}
+
+
+.col {
+    float: left;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-two {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.3333333%;
+}
+
+.col-two-third {
+    width: 66.6666666666%;
+}
+
+.col-four {
+    width: 25%;
+}
+
+.mt-64 {
+    margin-top: 64px !important;
+}
+
+.hover-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    cursor: pointer;
+}
+
+.font-64 {
+    font-size: 64px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-orange {
+    color: #ff9800 !important;
+}
+
+.color-red {
+    color: #f44336 !important;
+}
+
+.bg-red {
+    background-color: #f44336 !important;
+}
+
+.color-yellow {
+    color: #d2be0e !important;
+}
+
+.color-green {
+    color: #4CAF50 !important;
+}
+
+.bg-green {
+    background-color: #4CAF50 !important;
+}
+.color-white {
+    color: #fff !important;
+}
+
+.color-blue {
+    color: #2196F3 !important;
+}
+
+.color-cyan {
+    color: #00bcd4 !important;
+}
+
+
+.color-sand {
+    color: #fdf5e6!important;
+}
+
+.color-grey {
+    color: #757575!important;
+}
+
+.color-pink {
+    color: #e91e63!important;
+}
+
+.bg-indigo {
+    background-color: #3f51b5!important;
+}
+
+/* HEADER*/
+header {
+    
+}
+
+header > div:nth-child(2),
+header > div:nth-child(3) {
+    display: none;
+}
+
+header img {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+header .text-left {
+    width: 32%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    padding: 8px 16px;
+    margin-left: 16px;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    text-align: center;
+    border-radius: 4px;
+}
+
+header .text-left:hover {
+    opacity: 1;
+}
+
+    .text-left h1 {
+        font-size: 24px !important;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+
+    .text-left p {
+        margin: 16px 0;
+    }
+
+    .text-left a {
+        margin: 16px 0;
+        padding: 8px 16px;
+        display: block;
+        width: 100%;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+header #text-right {
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    background-color: #000;
+    padding: 8px 16px;
+    margin-right: 16px;
+    border-radius: 4px;
+    border: none;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 64px 16px;
+    overflow: hidden;
+}
+
+    .heading-content {
+        overflow: hidden;
+    }
+
+    .heading-content h1 {
+        margin: 10px 0;
+    }
+
+    .heading-content h1:first-child {
+        font-size: 64px;
+    }
+
+    .heading-content h1:nth-child(2) {
+        font-size: 48px;
+    }
+
+    .heading-content p {
+        margin: 16px 0;
+    }
+
+    .heading-content p span {
+        font-size: 24px;
+    }
+
+    .heading-content button {
+        margin: 16px 0;
+        padding: 12px 24px;
+        font-size: 18px;
+        color: #000;
+        background-color: #ddd;
+        border: none;
+    }
+
+    .image-app {
+        text-align: right;
+    }
+
+
+#the_app {
+
+}
+
+#features {
+    background-color: #616161;
+}
+
+
+#pricing .table-content {
+    padding: 0 8px;
+}
+
+    .table-content ul {
+        box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+        background-color: #fff;
+    }
+
+    .table-content ul li {
+        list-style-type: none;
+        padding: 16px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .table-content ul li h1 {
+        padding: 16px 0;
+        font-weight: 400;
+    }
+
+    .table-content ul li p {
+        font-size: 30px;
+        margin: 10px 0;
+        opacity: 0.6;
+    }
+
+    .table-content ul li:last-child {
+        padding: 24px 0;
+        background-color: #ddd;
+    }
+
+    .table-content ul li button {
+        font-size: 18px;
+        padding: 12px 24px;
+        border: none;
+        background-color: #000;
+        cursor: pointer;
+    }
+
+footer {
+    padding: 32px 16px;
+    background-color: #f1f1f1;
+}
+    footer > p {
+        font-size: 24px;
+    }
+
+    footer div a {
+        color: #000;
+    }
+
+#download {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+
+    #download .download-content {
+        width: 600px;
+        background-color: #fff;
+        margin: 100px auto 0;
+        padding: 32px 48px;
+        position: relative;
+    }
+
+    #download h1 {
+        letter-spacing: 4px;
+        font-weight: 400;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    #download i {
+        font-size: 24px;
+    }
+
+    #download p {
+        margin: 16px 0;
+    }
+    
+    #download p input {
+        padding: 12px 8px;
+        border: 1px solid #ccc;
+    }
+
+    #download p button {
+        padding: 16px 8px;
+        border: 1px solid #ccc;
+        background-color: #f44336;
+    }
